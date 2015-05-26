@@ -19,11 +19,11 @@ public class DevelopedSignature {
     //args[4] = archivo xml salida
     public static void main(String[] args) throws Exception {
               
-    /*String xmlPath = "c:\\hosnagcentral\\ejecutar\\1-001-020000000543.XML";
-    String pathSignature = "c:\\hosnagcentral\\ejecutar\\erika_johanna_rivera_contreras.p12";
-    String passSignature = "Erikadanna15";
-    String pathOut = "c:\\hosnagcentral\\ejecutar\\";
-    String nameFileOut = "factura_sign.xml";*/
+    /*String xmlPath = "c:\\facturaSinFirmar\factura.XML";
+    String pathSignature = "c:\\certificados\certificado.p12";
+    String passSignature = "password";
+    String pathOut = "c:\\facturaFirmada\\";
+    String nameFileOut = "factura_firmada.xml";*/
     
     String xmlPath = args[2];
     String pathSignature = args[0];
